@@ -1,8 +1,8 @@
 # cobyla-argmin - COBYLA as an argmin solver
 
-[![tests](https://github.com/relf/cobyla/workflows/tests/badge.svg)](https://github.com/relf/cobyla/actions?query=workflow%3Atests)
-[![crates.io](https://img.shields.io/crates/v/cobyla)](https://crates.io/crates/cobyla)
-[![docs](https://docs.rs/cobyla/badge.svg)](https://docs.rs/cobyla)
+[![tests](https://github.com/relf/cobyla-argmin/workflows/tests/badge.svg)](https://github.com/relf/cobyla-argmin/actions?query=workflow%3Atests)
+[![crates.io](https://img.shields.io/crates/v/cobyla-argmin)](https://crates.io/crates/cobyla-argmin)
+[![docs](https://docs.rs/cobyla-argmin/badge.svg)](https://docs.rs/cobyla-argmin)
 
 COBYLA is an algorithm for minimizing a function of many variables. The method is derivatives-free (only the function values are needed) 
 and take into account constraints on the variables. The algorithm is described in:
