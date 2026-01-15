@@ -1,4 +1,4 @@
-# cobyla - a pure Rust implementation
+# cobyla-argmin - COBYLA as an argmin solver
 
 [![tests](https://github.com/relf/cobyla/workflows/tests/badge.svg)](https://github.com/relf/cobyla/actions?query=workflow%3Atests)
 [![crates.io](https://img.shields.io/crates/v/cobyla)](https://crates.io/crates/cobyla)
