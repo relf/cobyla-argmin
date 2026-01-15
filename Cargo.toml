@@ -1,0 +1,25 @@
+[package]
+authors = ["Remi Lafage <remi.lafage@onera.fr>"]
+name = "cobyla-argmin"
+version = "1.0.0"
+edition = "2024"
+license-file = "LICENSE.md"
+description = "COBYLA optimizer for Rust as an argmin solver"
+readme = "README.md"
+repository = "https://github.com/relf/cobyla-argmin/"
+keywords = ["optimizer", "optimization", "constrained", "derivative-free"]
+categories = ["algorithms", "api-bindings", "science"]
+documentation = "https://docs.rs/cobyla-argmin"
+
+[features]
+serde1 = ["dep:serde", "argmin/serde1"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"], optional = true }
+libc = "0.2"
+argmin = { version = "0.11" }
+argmin-observer-slog = { version = "0.2" }
+web-time = { version = "1.1.0" }
+
+[dev-dependencies]
+approx = "0.5"
